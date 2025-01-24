@@ -104,8 +104,6 @@ public class RandomDataGenerator {
         FileWriter transactionFile = new FileWriter("Transaction.sql");
         for(int i = 1; i <= TWO_THOUSAND; i++)
         {
-
-
             String date = randomDate(2020, 2025);
             int customerId = 1 + random.nextInt(ONE_THOUSAND);
             List<Integer> ownedCards = new ArrayList<>(ownershipMap.get(customerId));

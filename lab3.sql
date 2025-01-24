@@ -55,6 +55,9 @@ SELECT COUNT(*) FROM Vendor;
 SELECT COUNT(*) FROM Ownership;
 SELECT COUNT(*) FROM Transaction;
 SELECT COUNT(*) FROM Payment;
+
+
+
 select * from Customer;
 select * from CreditCard;
 select * from Ownership;
